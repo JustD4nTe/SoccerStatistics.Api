@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![.NetCoreVersion: 3.1](https://img.shields.io/static/v1?label=.Net%20Core&message=3.1&color=informational)](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+[![Coverage Status](https://coveralls.io/repos/github/WyimaginowaneKoniki/SoccerStatistics.Api/badge.svg?branch=develop)](https://coveralls.io/github/WyimaginowaneKoniki/SoccerStatistics.Api?branch=develop)
 # SoccerStatistics REST API
 
 ## Overview
@@ -8,12 +9,15 @@ SoccerStatistics is a REST API application to search information about Football 
 
 
 ## Table of contents
-* [API Versioning](#api-versioning)
-* [URI Summary](#uri-Summary)
-* [HTTP Responses](#HTTP-Responses)
-* [HTTP Response Codes](#HTTP-Response-Codes)
-* [Technologies](#technologies)
-* [Contributors](#Contributors)
+- [SoccerStatistics REST API](#soccerstatistics-rest-api)
+  - [Overview](#overview)
+  - [Table of contents](#table-of-contents)
+  - [API Versioning](#api-versioning)
+  - [URI Summary](#uri-summary)
+  - [HTTP Responses](#http-responses)
+  - [HTTP Response Codes](#http-response-codes)
+- [Technologies](#technologies)
+  - [Contributors](#contributors)
 
 
 
@@ -30,19 +34,19 @@ http://localhost:{port}/swagger/index.html
 
 The following table summarises all the available resource URIs, and the effect of each verb on them. Each of them is relative to the base URI for our API: `http://localhost:{port}/api`.
 
-| Resource                                              | GET                                                 |
-| ----------------------------------------------------- | --------------------------------------------------- | 
-| [/leagues/](#leagues)                                 | Returns list of available leagues                   |
-| [/leagues/{id}](#leagues)                             | Returns league by ID                                |
-| [/matches/](#matches)                                 | Returns list of recent matches                      |
-| [/matches/{id}](#matches)                             | Returns match by ID                                 |
-| [/players/](#players)                                 | Returns list of available players                   | 
-| [/players/{id}](#players)                             | Returns player by ID                                |
-| [/rounds/{id}](#rounds)                               | Returns round by ID                                 |                
-| [/stadiums/](#stadiums)                               | Returns list of available stadiums                  |
-| [/stadiums/{id}](#stadiums)                           | Returns stadium by ID                               |
-| [/teams/](#teams)                                     | Returns list of available teams                     | 
-| [/teams/{id}](#teams)                                 | Returns team by ID                                  | 
+| Resource                    | GET                                |
+| --------------------------- | ---------------------------------- |
+| [/leagues/](#leagues)       | Returns list of available leagues  |
+| [/leagues/{id}](#leagues)   | Returns league by ID               |
+| [/matches/](#matches)       | Returns list of recent matches     |
+| [/matches/{id}](#matches)   | Returns match by ID                |
+| [/players/](#players)       | Returns list of available players  |
+| [/players/{id}](#players)   | Returns player by ID               |
+| [/rounds/{id}](#rounds)     | Returns round by ID                |
+| [/stadiums/](#stadiums)     | Returns list of available stadiums |
+| [/stadiums/{id}](#stadiums) | Returns stadium by ID              |
+| [/teams/](#teams)           | Returns list of available teams    |
+| [/teams/{id}](#teams)       | Returns team by ID                 |
 
 
 ## HTTP Responses
